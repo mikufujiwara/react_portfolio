@@ -1,38 +1,306 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
+
+/* --------------- COMMON --------------- */
+
+:root {
+  --black: #191b1a;
+  --lightGray: #f4f4f4;
+  --white: #ffffff;
+  --yellow: #f5c900;
+  --lightYellow: #ffeea1;
+  --purple: #9066c4;
+  --middlePurple: #a87cdf;
+  --lightPurple: #ceb3ef;
+  --orange: #fc6c12;
+  --lightOrange: #ff8c44;
+  --lightOrange: #ffd7c7;
+  --green: #299656;
+  --lightGreen: #50bc7d;
+  --titleFont: "Rajdhani", sans-serif;
+}
+
 .App {
-  text-align: center;
+  background-color: var(--lightGray);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* --------------- MOBILE VERSION --------------- */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (min-width: 200px) {
+  #typing span {
+    font-size: 18px;
+  }
+
+  /* --------------- HEADER --------------- */
+
+  header {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+  }
+
+  nav {
+    background-color: var(--purple);
+  }
+
+  .container .title,
+  .container .navmenu,
+  .navmenu > .nav-link {
+    color: var(--white);
+  }
+
+  .container .title:hover,
+  .container .navmenu:hover,
+  #basic-nav-dropdown:hover,
+  .show > #basic-nav-dropdown,
+  .container .navbar-nav > .nav-link.active {
+    color: var(--lightPurple);
+  }
+
+  .container .title {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: var(--titleFont);
+  }
+
+  /* --------------- HOMEPAGE --------------- */
+
+  .container h1,
+  .container h2,
+  .container h3,
+  .container h4,
+  .container h5,
+  .timeline-date {
+    font-family: var(--titleFont);
+    font-weight: 700;
+  }
+
+  .container h1 {
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .profileWrap {
+    padding: 3%;
+    background-color: var(--white);
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(179, 179, 179, 1);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(179, 179, 179, 1);
+    box-shadow: 3px 3px 5px 0px rgba(179, 179, 179, 1);
+  }
+
+  #typing span {
+    display: inline-block;
+    width: 31ch;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid transparent;
+    border-bottom: var(--yellow) 4px solid;
+    animation: typing 4s steps(23), caret 0.5s steps(1) infinite;
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+  }
+  @keyframes caret {
+    50% {
+      border-right-color: currentColor;
+    }
+  }
+
+  .profileImage {
+    object-fit: cover;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+  }
+
+  #about p {
+    color: var(--black);
+    text-align: justify;
+    padding: 0 5%;
+  }
+
+  #about a {
+    color: var(--orange);
+    text-decoration: none;
+    font-weight: 700;
+    padding: 1%;
+    border:solid 2px var(--orange)
+  }
+
+  #about a:hover {
+    font-weight: 700;
+    background-color: var(--orange);
+    color: white;
+  }
+
+  img {
+    width: 300px;
+    height: 300px;
+  }
+
+  #experience,
+  #project,
+  #skill {
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
+
+  #experience li {
+    text-align: left;
+  }
+
+  #experience h4 {
+    color: var(--purple);
+  }
+
+  .timeline {
+    list-style: none;
+  }
+  .timeline > li {
+    margin-bottom: 60px;
+  }
+
+  #project .project {
+    background-color: var(--white);
+    padding: 2%;
+  }
+
+  #project a {
+    text-decoration: none;
+  }
+
+  #project h5 {
+    color: var(--black);
+  }
+
+  .circle1 {
+    color: var(--orange);
+  }
+
+  .circle2 {
+    color: var(--purple);
+  }
+  .circle3 {
+    color: var(--yellow);
+  }
+  .circle4 {
+    color: var(--green);
+  }
+
+
+
+ 
+
+  .text-muted > span {
+    color: var(--black);
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .text-muted {
+    text-align:center;
+    padding: 0 2%;
+  }
+
+  #skill img {
+    object-fit: contain;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    height: 60px;
+    width: 60px;
+  }
+
+  #graphic img {
+    width:fit-content;
+  }
+
+
+  /* --------------- CONTACT --------------- */
+
+  .button {
+    background-color: var(--purple);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+  }
+
+  .button:hover {
+    background-color: var(--middlePurple);
+  }
+
+  /* --------------- FOOTER --------------- */
+
+  footer {
+    background-color: var(--purple);
+  }
+
+  footer i {
+    font-size: 30px;
+    color: var(--white);
+  }
+
+  footer p {
+    color: var(--white);
+    font-size: 12px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+/* --------------- TABLET VERSION --------------- */
 
-.App-link {
-  color: #61dafb;
-}
+@media (min-width: 720px) {
+  #typing span {
+    font-size: 22px;
+  }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  #skill img {
+    height: 120px;
+    width: 120px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .timeline > li {
+    overflow: hidden;
+    margin: 0;
+    position: relative;
   }
+  .timeline-date {
+    width: 110px;
+    float: left;
+    margin-top: 20px;
+  }
+  .timeline-content {
+    width: 75%;
+    float: left;
+    border-left: 3px solid var(--lightPurple);
+    padding-left: 30px;
+  }
+  .timeline-content:before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: var(--middlePurple);
+    position: absolute;
+    left: 106px;
+    top: 24px;
+    border-radius: 100%;
+  }
+
+
+  .project:hover {
+    transition: .3s;
+    background-color: var(--white);
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(179, 179, 179, 1);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(179, 179, 179, 1);
+    box-shadow: 3px 3px 5px 0px rgba(179, 179, 179, 1);
+  }
+}
+/* --------------- DESKTOP VERSION --------------- */
+
+@media (min-width: 1000px) {
+  #typing span {
+    font-size: 25px;
+  }
+
 }
