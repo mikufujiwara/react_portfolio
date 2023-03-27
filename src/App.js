@@ -3,7 +3,7 @@ import GraphicPage from "./components/pages/GraphicPage";
 import Header from "./components/Header";
 import HomePage from "./components/pages/HomePage";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Footer from "./Footer";
+import Footer from "./components/Footer";
 import ContactPage from "./components/pages/ContactPage";
 
 function App() {

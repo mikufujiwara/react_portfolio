@@ -44,6 +44,7 @@ const HomePage = () => {
                 href="https://drive.google.com/file/d/1KEeWoQH001-JdCKSL_fRr0w4v72Ry_2a/view?usp=share_link"
                 target="_blank"
                 rel="noreferrer"
+                className="mt-3"
               >
                 Download my resume here!
               </a>
