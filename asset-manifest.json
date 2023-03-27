@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react_portfolio/static/css/main.0f7a8e84.css",
+    "main.js": "/react_portfolio/static/js/main.5d4b75f0.js",
+    "static/media/realestate_print_2.jpg": "/react_portfolio/static/media/realestate_print_2.116cf18ecb68aca52cf0.jpg",
+    "static/media/realestate_print_5.jpg": "/react_portfolio/static/media/realestate_print_5.3fb81adff1ff29d7d0b8.jpg",
+    "static/media/realestate_print_4.jpg": "/react_portfolio/static/media/realestate_print_4.50ec429b6c74b518dc1b.jpg",
+    "static/media/realestate_print_1.jpg": "/react_portfolio/static/media/realestate_print_1.b59ccbbe340106ce9b10.jpg",
+    "static/media/realestate_print_3.jpg": "/react_portfolio/static/media/realestate_print_3.56e0493ac3f146c8bbde.jpg",
+    "static/media/realestate_print_6.jpg": "/react_portfolio/static/media/realestate_print_6.437373cd02ba94cf2a30.jpg",
+    "static/media/jquery.svg": "/react_portfolio/static/media/jquery.09989e759a48457318671473750bbebf.svg",
+    "index.html": "/react_portfolio/index.html",
+    "static/media/css.svg": "/react_portfolio/static/media/css.4e47c3122b8d2476a02f97dcfcb28640.svg",
+    "static/media/html.svg": "/react_portfolio/static/media/html.f318c8b1d5945fa9adc827ae94849cb1.svg",
+    "static/media/vue.svg": "/react_portfolio/static/media/vue.f1fd23be1db9361fbcd81511fe862b08.svg",
+    "static/media/js.svg": "/react_portfolio/static/media/js.b879f838faf1cb951d1c2230fd933a39.svg",
+    "static/media/react.svg": "/react_portfolio/static/media/react.928f956d9c8ebcffb98a8e917154a81a.svg",
+    "main.0f7a8e84.css.map": "/react_portfolio/static/css/main.0f7a8e84.css.map",
+    "main.5d4b75f0.js.map": "/react_portfolio/static/js/main.5d4b75f0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f7a8e84.css",
+    "static/js/main.5d4b75f0.js"
+  ]
+}
