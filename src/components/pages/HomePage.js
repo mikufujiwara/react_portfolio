@@ -41,7 +41,7 @@ const HomePage = () => {
             reality! <br />
             <span className="d-flex justify-content-end">
               <a
-                href="https://drive.google.com/file/d/1KEeWoQH001-JdCKSL_fRr0w4v72Ry_2a/view?usp=share_link"
+                href="https://drive.google.com/file/d/1HgBQ4Jj7dYI1VZrNO6COzdxC9dec_YOG/view?usp=share_link"
                 target="_blank"
                 rel="noreferrer"
                 className="mt-3"
