@@ -106,7 +106,7 @@ const HomePage = () => {
               only HTML and CSS, without relying on any external libraries.
             </p>
           </a>
-          <a href="/" target="_blank" className="col-lg-5 project m-2">
+          <a href="https://miku-to-do-list.netlify.app/" target="_blank" className="col-lg-5 project m-2">
             <span className="fa-stack fa-4x">
               <i className="fas fa-circle fa-stack-2x circle2"></i>
               <i className="fas fa-square-check fa-stack-1x fa-inverse"></i>
@@ -119,7 +119,7 @@ const HomePage = () => {
             </p>
           </a>
           <a
-            href="https://miku-to-do-list.netlify.app/"
+            href="https://github.com/takumi-tsuka/toy_store_final"
             target="_blank"
             rel="noreferrer"
             className="col-lg-5 project m-2"
