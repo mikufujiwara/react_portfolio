@@ -29,7 +29,7 @@ const Header = () => {
                   Responsive Website
                 </NavDropdown.Item>
                 <NavDropdown.Item
-                  href="#action/3.2"
+                  href="https://miku-to-do-list.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >

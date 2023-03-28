@@ -113,13 +113,13 @@ const HomePage = () => {
             </span>
             <h5 className="my-3">To-do List App</h5>
             <p className="text-muted">
-              <span> [ HTML / CSS / JavaScript ]</span>
-              <br />I improver my front-end development skills and gained
+              <span> [ HTML / CSS / JavaScript / React ]</span>
+              <br />I improve my front-end development skills and gained
               practical UI design experience with this project.
             </p>
           </a>
           <a
-            href="https://github.com/takumi-tsuka/toy_store_final"
+            href="https://miku-to-do-list.netlify.app/"
             target="_blank"
             rel="noreferrer"
             className="col-lg-5 project m-2"
