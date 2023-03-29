@@ -17,7 +17,7 @@ const Header = () => {
                 Home
               </Nav.Link>
               <NavDropdown
-                title="Project"
+                title="Projects"
                 className="navmenu"
                 id="basic-nav-dropdown"
               >

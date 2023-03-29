@@ -86,7 +86,7 @@ const HomePage = () => {
       </section>
       <section className="page-section col-md-8" id="project">
         <div className="text-center">
-          <h2 className="section-heading text-uppercase mb-5">PROJECT</h2>
+          <h2 className="section-heading text-uppercase mb-5">PROJECTS</h2>
         </div>
         <div className="row text-center d-flex justify-content-around align-items-center g-4">
           <a
@@ -166,41 +166,22 @@ const HomePage = () => {
         <div className="row col-md-8">
           <ul className="timeline">
             <li>
-              <p className="timeline-date">April 2012 -</p>
+              <p className="timeline-date text-center">Mar 2023 <br/>|<br/> Oct 2022</p>
+              <p className="timeline-date2 ">Oct 2022 - Mar 2023</p>
               <div className="timeline-content">
-                <h4>Kyoto Sangyo University</h4>
-                <h5>Bachelor of Foreign Studies </h5>
-                <p>1 year break for study abroad in Indonesia.</p>
-              </div>
-            </li>
-            <li>
-              <p className="timeline-date">Apr 2017 -</p>
-              <div className="timeline-content">
-                <h4>Xacti Corporation</h4>
-                <h5>Administrative assistant</h5>
+                <h4>Tamwood International College</h4>
+                <h5>Web Developer Course</h5>
                 <p>
-                  I translated Japanese manuals into English and Indonesian for
-                  a factory in Indonesia, enabling smooth assembly of cameras by
-                  Indonesian employees. I also assisted with project planning by
-                  calculating required man-hours.
+                  I acquired proficiency in HTML, CSS, JavaScript, and PHP at
+                  Tamwood college. Additionally, I gained experience in
+                  developing and working with REST APIs, as well as working with
+                  technologies such as React, Vue.js, and AngularJS.
                 </p>
               </div>
             </li>
             <li>
-              <p className="timeline-date">Jan 2019 -</p>
-              <div className="timeline-content">
-                <h4>H.I.S. International Tours Inc.</h4>
-                <h5>Travel Agent</h5>
-                <p>
-                  I handled incoming calls and provided customer service,
-                  answering questions and recommending flight options in English
-                  or Japanese. I also managed travel arrangements, including
-                  airfare, hotel, and rental car reservations using Apollo GDS.
-                </p>
-              </div>
-            </li>
-            <li>
-              <p className="timeline-date">May 2020 -</p>
+              <p className="timeline-date text-center">Aug 2022 <br/>|<br/> May 2020</p>
+              <p className="timeline-date2 ">Mar 2020 - Aug 2022</p>
               <div className="timeline-content">
                 <h4>WAFULL K.K.</h4>
                 <h5>Graphic Designer</h5>
@@ -213,16 +194,39 @@ const HomePage = () => {
               </div>
             </li>
             <li>
-              <p className="timeline-date">Oct 2022 -</p>
+              <p className="timeline-date text-center">Mar 2020 <br/>|<br/> Jan 2019</p>
+              <p className="timeline-date2 ">Jan 2019 - Mar 2020</p>
               <div className="timeline-content">
-                <h4>Tamwood International College</h4>
-                <h5>Web Developer Course</h5>
+                <h4>H.I.S. International Tours Inc.</h4>
+                <h5>Travel Agent</h5>
                 <p>
-                  I acquired proficiency in HTML, CSS, JavaScript, and PHP at
-                  Tamwood college. Additionally, I gained experience in
-                  developing and working with REST APIs, as well as working with
-                  technologies such as React, Vue.js, and AngularJS.
+                  I handled incoming calls and provided customer service,
+                  answering questions and recommending flight options in English
+                  or Japanese. I also managed travel arrangements, including
+                  airfare, hotel, and rental car reservations using Apollo GDS.
                 </p>
+              </div>
+            </li>
+            <li>
+              <p className="timeline-date text-center">Dec 2018 <br/>|<br/> Apr 2017</p><p className="timeline-date2 ">Apr 2017 - Dec 2018</p>
+              <div className="timeline-content">
+                <h4>Xacti Corporation</h4>
+                <h5>Administrative assistant</h5>
+                <p>
+                  I translated Japanese manuals into English and Indonesian for
+                  a factory in Indonesia, enabling smooth assembly of cameras by
+                  Indonesian employees. I also assisted with project planning by
+                  calculating required man-hours.
+                </p>
+              </div>
+            </li>
+            <li>
+              <p className="timeline-date text-center">Mar 2017 <br/>|<br/> Apr 2012</p>
+              <p className="timeline-date2 ">Apr 2012 - Mar 2017</p>
+              <div className="timeline-content">
+                <h4>Kyoto Sangyo University</h4>
+                <h5>Bachelor of Foreign Studies </h5>
+                <p>1 year break for study abroad in Indonesia.</p>
               </div>
             </li>
           </ul>

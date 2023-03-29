@@ -69,7 +69,8 @@
   .container h3,
   .container h4,
   .container h5,
-  .timeline-date {
+  .timeline-date,
+  .timeline-date2 {
     font-family: var(--titleFont);
     font-weight: 700;
   }
@@ -188,9 +189,16 @@
     color: var(--green);
   }
 
+  .timeline-date {
+    display: none;
+  }
 
-
- 
+  .timeline-date2 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
 
   .text-muted > span {
     color: var(--black);
@@ -265,11 +273,17 @@
     margin: 0;
     position: relative;
   }
+  .timeline-date2 {
+    display: none;
+  }
+
   .timeline-date {
+    display: block;
     width: 110px;
     float: left;
-    margin-top: 20px;
+    margin-top: 10px;
   }
+
   .timeline-content {
     width: 75%;
     float: left;
@@ -283,7 +297,7 @@
     background: var(--middlePurple);
     position: absolute;
     left: 106px;
-    top: 24px;
+    top: 10px;
     border-radius: 100%;
   }
 
